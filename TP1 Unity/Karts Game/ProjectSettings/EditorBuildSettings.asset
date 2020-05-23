@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Karting/Scenes/IntroMenu.unity
+    guid: 1876caa8db6de49ba96d0247f0721161
+  - enabled: 1
     path: Assets/Karting/Scenes/GameMode.unity
     guid: d29260d8d84c94bd7ac95807b3da99d4
   - enabled: 1
@@ -20,9 +23,6 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Karting/Scenes/IntroMenu.unity
-    guid: 1876caa8db6de49ba96d0247f0721161
   - enabled: 1
     path: Assets/Karting/Scenes/Desert.unity
     guid: 5342775aaee5a4c35b6e0845790f5337
