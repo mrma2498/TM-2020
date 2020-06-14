@@ -236,8 +236,6 @@ class PlayGame extends Phaser.Scene{
                     this.lives--;
                     this.heart.play();
                     this.grunt.play();
-
-
                     this.livesIcon.getChildren()[this.lives].setVisible(false); //remove um coração por por cada vida
 
                     //gameOver
@@ -251,6 +249,7 @@ class PlayGame extends Phaser.Scene{
 
                     }
 
+
                 }
                 this.enemiesCollided[i]=true;
 
@@ -260,8 +259,13 @@ class PlayGame extends Phaser.Scene{
                     this.enemiesCollided[i]=false;
                 }, [], this);
 
+
+
+
                 break;
             }
+
+
 
         }
 
